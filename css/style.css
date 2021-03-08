@@ -1,0 +1,261 @@
+/*--Main-Color--*/
+/*#053067
+bootstrap: background-color: #f8f9fa
+/*-------------*/
+body,html{
+font-size: 16px;
+color:#000;
+text-rendering: optimizeLegibility;
+overflow-x: hidden;
+line-height: 145%;
+}
+#header-utility-bar{
+  background-color:#f8f9fa!important;
+  color:#053067;
+}
+.utitlity-content{
+  padding-right:20px;
+}
+#nav-bar{
+}
+/*-----------------------------*/
+/*home page
+/*-----------------------------*/
+/* .header-slider{
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+} */
+.main-container{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main-container-row{
+  flex: 0 0 30%;
+  width:500px;
+  height:500px;
+  margin:20px;
+  border:1px #B9C0CA solid;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px #B9C0CA;
+}
+.main-container-row img{
+  width:400px;
+}
+.main-container-content{
+  width:150px;
+  text-align: center;
+  margin-left:120px;
+  margin-top:50px;
+  text-transform: capitalize;
+}
+.diploma-frames-content{
+    margin:50px 60px;
+}
+
+.diploma-frames-icon{
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-top: 2px solid #053067;
+}
+/* .icon-shield{
+  display: inline-block;
+  position: relative;
+} */
+/* .icon-shield{
+  border-top: 2px red solid;
+  margin-left: 50px;
+} */
+/* .icon-shield i:before,
+.icon-shield i:after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  top: 0;
+  left: 0;
+  width: 500px;
+}
+.icon-shield i:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.icon-shield i:after {
+  left: 100%;
+  margin-left: 15px;
+} */
+.Why-Choose-Us{
+  background-color: #f8f9fa;
+  margin-top: 50px;
+}
+.Why-Choose-Us h3{
+  text-align: center;
+  padding-top:50px;
+}
+.Choose-Us{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.Choose-Us-div{
+  flex: 0 0 23%;
+  margin-top:20px;
+  padding-bottom: 50px;
+}
+.choose-us-content p{
+width: 270px;
+margin-top: 30px;
+}
+.Custom-Diploma-Frames{
+  display:flex;
+  justify-self: center;
+  align-items: center;
+  padding-top:20px;
+}
+.Custom-Diploma-Frames-content{
+  flex: 0 0 60%;
+  padding-left:50px;
+}
+.Custom-Diploma-Frames-content p{
+  line-height: 145%;
+  margin-top: 20px;
+}
+.what-people-are-say{
+  margin-bottom: 50px;
+}
+.card-text::after{
+  content: "- Nicholas";
+}
+/*-----------------------------*/
+/*footer
+/*-----------------------------*/
+footer{
+  position: relative;
+}
+.sponsor{
+  widows: 100%;
+  height:220px;
+  padding:20px;
+  background-color: #f8f9fa;
+}
+.sponsor-log{
+  margin:50px 0;
+  margin-left:10%;
+}
+.sponsor-log img{
+  width:108px;
+  padding-left:20px;
+}
+.footer-column{
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #053067;
+  color:#B9C0CA;
+  opacity:0.8;
+  padding:50px 0;
+  padding-left:30px;
+}
+.column{
+  flex:0 0 33%;
+  text-align: left;
+}
+.column-title{
+  border-bottom: 2px #f8f9fa solid;
+  width:90%;
+  margin-top:20px;
+  padding-bottom: 10px;
+  text-transform:capitalize;
+}
+.column-first ul{
+  padding-top:20px;
+  padding-left:0;
+}
+.column-first ul li a{
+  text-transform: capitalize;
+  padding:10px;
+  
+}
+.column-first ul, .phone li{
+  list-style: none;
+}
+.column-first ul li a, .phone li a, #eml a{
+  text-decoration: none;
+  color:#B9C0CA;
+}
+.column-second address, .hour-of-operation{
+  padding-top:20px;
+}
+#footer-end{
+  background-color:#053067;
+}
+.footer-social-media{
+  display:flex;
+  margin-left:15%;
+  padding: 20px 0;
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.footer-icon{
+  flex:0 0 33%;
+}
+.live-chat{
+  text-transform: capitalize;
+}
+.live-chat, .social-media i{
+  font-size: 150%;
+  color:#f8f9fa;
+}
+.social-media i{
+  padding-left:10px;
+}
+.repugen{
+  margin-left:50px;
+}
+.copy-right{
+  border-top: 2px #f8f9fa solid;
+  height: 100px;
+}
+.copy-right-container{
+  margin:20px 0;
+  display:flex;
+  justify-content: center;
+  color:#f8f9fa;
+  font-size: 100%;
+}
+.copy-right-content{
+  flex:0 0 50%
+}
+.copy-right-copy{
+  padding-left:20px;
+  text-transform: capitalize;
+}
+.copy-right-list ul{
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copy-right-list ul li a{
+  padding-left:20px;
+  color:#f8f9fa;
+  text-decoration: none;
+  font-size: 100%;
+}
+/*-----------------------------*/
+/*bootstrap
+/*-----------------------------*/
+.bg-light, .btn-primary{
+  background-color:#053067!important;
+}
+.nav-item a{
+  color:#fff!important;
+  text-transform: capitalize;
+}
+.btn-outline-light{
+
+}
